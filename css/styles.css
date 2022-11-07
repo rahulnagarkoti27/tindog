@@ -1,0 +1,146 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat";
+}
+p{
+    color: #8f8f8f;
+}
+
+/* Heading Section */
+.big-heading{
+    font-size: 3.5rem; 
+    font-weight:bolder;
+    line-height: 1.5;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+/* Sections */
+.coloured-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+
+/* Container Fluid Section */
+.container-fluid{
+    padding: 7% 15% ;
+}
+
+/* Navbar Section */
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+/* Title Section */
+.down-button{
+    margin: 5% 3% 5% 0;
+}
+.title-img{
+    transform: rotate(25deg);
+    position: absolute;
+    padding-left: 30px;
+    width: 335px;
+    height: auto;
+}
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Features Section */
+.fontaw-icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.fontaw-icon:hover{
+    color:#ff4c68;
+}
+.col-al{
+    line-height: 2;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+#features{
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+
+/* Testimonial Section */
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#testimonials{
+    background-color: #ef8172;
+}
+
+/* Press Section */
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+/* Pricing Section */
+.pricing-column{
+    padding: 3% 2%;
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.card-heading{
+    font-weight: bold;
+}
+#pricing{
+    padding: 100px;
+}
+
+/* Footer Section */
+.foot-icon{
+    margin: 20px 10px;
+}
+
+/* Media Queries Section */
+@media(max-width:992px)
+{
+    #title{
+        text-align: center;
+    }
+
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
